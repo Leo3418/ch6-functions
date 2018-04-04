@@ -31,11 +31,11 @@ fav_2 <- fav_2 / sqrt(201)
 
 # Create a variable `raw_sum` that is the sum of the two variables. Use the 
 # `sum()` function for practice.
-raw_sum = sum(fav_1, fav_2)
+raw_sum <- sum(fav_1, fav_2)
 
 # Create a variable `round_sum` that is the `raw_sum` rounded to 1 decimal place.
 # Use the `round()` function.
-round_sum = round(raw_sum, 1)
+round_sum <- round(raw_sum, 1)
 
 # Create two new variables `round_1` and `round_2` that are your `fav_1` and 
 # `fav_2` variables rounded to 1 decimal places
