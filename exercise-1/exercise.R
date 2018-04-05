@@ -10,7 +10,7 @@ name_length <- nchar(my_name)
 # Print the number of letters in your name
 print(name_length)
 
-# Create a variable `now_doing` that is your name followed by "is programming!" 
+# Create a variable `now_doing` that is your name followed by "is programming!"
 # (use the `paste()` function)
 now_doing <- paste(my_name, "is programming!")
 
@@ -19,7 +19,7 @@ now_doing <- toupper(now_doing)
 
 ### Bonus
 
-# Pick two of your favorite numbers (between 1 and 100) and assign them to 
+# Pick two of your favorite numbers (between 1 and 100) and assign them to
 # variables `fav_1` and `fav_2`
 fav_1 <- 15
 fav_2 <- 45
@@ -29,7 +29,7 @@ fav_2 <- 45
 fav_1 <- fav_1 / sqrt(201)
 fav_2 <- fav_2 / sqrt(201)
 
-# Create a variable `raw_sum` that is the sum of the two variables. Use the 
+# Create a variable `raw_sum` that is the sum of the two variables. Use the
 # `sum()` function for practice.
 raw_sum <- sum(fav_1, fav_2)
 
@@ -37,7 +37,7 @@ raw_sum <- sum(fav_1, fav_2)
 # Use the `round()` function.
 round_sum <- round(raw_sum, 1)
 
-# Create two new variables `round_1` and `round_2` that are your `fav_1` and 
+# Create two new variables `round_1` and `round_2` that are your `fav_1` and
 # `fav_2` variables rounded to 1 decimal places
 round_1 <- round(fav_1)
 round_2 <- round(fav_2)

@@ -1,11 +1,11 @@
 # Exercise 4: functions and conditionals
 
-# Define a function `is_twice_as_long` that takes in two character strings, and 
+# Define a function `is_twice_as_long` that takes in two character strings, and
 # returns whether or not (e.g., a boolean) the length of one argument is greater
 # than or equal to twice the length of the other.
 # Hint: compare the length difference to the length of the smaller string
 is_twice_as_long <- function(string1, string2) {
-    nchar(string1) >= 2 * nchar(string2) || nchar(string2) >= 2 * nchar(string1)
+  nchar(string1) >= 2 * nchar(string2) || nchar(string2) >= 2 * nchar(string1)
 }
 
 # Call your `is_twice_as_long` function by passing it different length strings
@@ -24,15 +24,15 @@ is_twice_as_long("Version control", "Git")
 #   "Your first string is longer by N characters"
 #   "Your second string is longer by N characters"
 #   "Your strings are the same length!"
-describe_difference <- function(string1, string2){
-    length_diff <- nchar(string1) - nchar(string2)
-    if (length_diff > 0) {
-        paste("Your first string is longer by", length_diff, "characters")
-    } else if (length_diff < 0) {
-        paste("Your second string is longer by", - length_diff, "characters")
-    } else {
-        "Your strings are the same length!"
-    }
+describe_difference <- function(string1, string2) {
+  length_diff <- nchar(string1) - nchar(string2)
+  if (length_diff > 0) {
+    paste("Your first string is longer by", length_diff, "characters")
+  } else if (length_diff < 0) {
+    paste("Your second string is longer by", -length_diff, "characters")
+  } else {
+    "Your strings are the same length!"
+  }
 }
 
 # Call your `describe_difference` function by passing it different length strings
